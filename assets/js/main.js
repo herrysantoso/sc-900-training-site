@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const current=location.pathname.split('/').pop()||'index.html';document.querySelectorAll('.sidebar a').forEach(a=>{if(a.getAttribute('href')===current){a.classList.add('active')}});});
